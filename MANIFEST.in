@@ -1,2 +1,2 @@
 include docs/*
-recursive-include collective *.xml *.js
+recursive-include collective *.xml *.js *.zcml
