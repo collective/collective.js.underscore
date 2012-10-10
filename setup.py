@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.4.2c'
+version = '1.4.2d'
 
 setup(name='collective.js.underscore',
       version=version,
