@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.4.4
+-----
+
+- Update to underscore 1.4.4
+
 1.4.3
 -----
 
