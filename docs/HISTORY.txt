@@ -4,6 +4,9 @@ Changelog
 1.5.2
 -----
 
+- Remove source map inclusion in underscore.min.js. Fixes annoying bug with diazo when developer tool is trying to get the source map file.
+  [cedricmessiant]
+
 - Update to underscore 1.5.2
 
 1.4.4
