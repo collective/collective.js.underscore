@@ -1,7 +1,7 @@
-1.5.3 (unreleased)
-------------------
+1.5.2.1 (unreleased)
+--------------------
 
-- Nothing changed yet.
+- Release done with zest.releaser.
 
 
 1.5.2 (2018-01-05)
