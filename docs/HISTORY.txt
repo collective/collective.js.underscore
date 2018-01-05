@@ -1,6 +1,8 @@
 1.5.2.1 (unreleased)
 --------------------
 
+- Remove source map inclusion in underscore.min.js.
+
 - Release done with zest.releaser.
 
 
