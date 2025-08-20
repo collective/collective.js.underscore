@@ -35,9 +35,13 @@ class TestSetup(unittest.TestCase):
 
     def test_uninstall(self):
         self.installer.uninstall_product("collective.js.underscore")
-        self.assertFalse(self.installer.is_product_installed("collective.js.underscore"))
+        self.assertFalse(
+            self.installer.is_product_installed("collective.js.underscore")
+        )
         self.assertNotIn("underscore", self.bundles)
         scripts = ScriptsView(self.layer["portal"], self.layer["request"], None)
         scripts.update()
         results = scripts.render()
-        self.assertNotIn("++resource++collective.js.underscore/underscore.min.js", results)
+        self.assertNotIn(
+            "++resource++collective.js.underscore/underscore.min.js", results
+        )
