@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.js.underscore">
+
+    <browser:resourceDirectory
+        name="collective.js.underscore"
+        directory="resources"
+        />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="underscore.js"
+        directory="profiles/default"
+        description="underscore.js library for Plone (https://github.com/jashkenas/underscore)"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <genericsetup:registerProfile
+        name="uninstall"
+        title="underscore.js uninstall"
+        directory="profiles/uninstall"
+        description="Uninstalls underscore.js library"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+</configure>

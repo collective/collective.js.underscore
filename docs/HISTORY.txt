@@ -1,8 +1,17 @@
-1.5.2.2 (unreleased)
---------------------
+Changelog
+=========
 
-- Nothing changed yet.
+1.13.7 (unreleased)
+-------------------
 
+- Update underscore.min.js to 1.13.7
+  [laulaz]
+
+- Migrate package from flat-layout to src-layout
+  [laulaz]
+
+- Add Plone 6.1 compatibility, drop Plone 4 compatibility
+  [laulaz]
 
 1.5.2.1 (2018-01-05)
 --------------------
@@ -11,6 +20,80 @@
 
 - Release done with zest.releaser.
 
-
 1.5.2 (2018-01-05)
 ------------------
+
+- Remove source map inclusion in underscore.min.js. Fixes annoying bug with diazo when developer tool is trying to get the source map file.
+  [cedricmessiant]
+
+- Update to underscore 1.5.2
+
+1.4.4
+-----
+
+- Update to underscore 1.4.4
+
+1.4.3
+-----
+
+- Update to underscore 1.4.3
+
+1.4.2
+-----
+
+- Update to underscore 1.4.2
+
+1.4.1
+-----
+
+- Update to underscore 1.4.1
+
+1.4.0
+-----
+
+- Update to underscore 1.4.0
+
+1.3.3
+-----
+
+- Update to underscore 1.3.3
+
+1.3.2
+-----
+
+- Update to underscore 1.3.2
+
+1.3.1
+-----
+
+- Update to underscore 1.3.1
+
+1.3.0
+-----
+
+- Update to underscore 1.3.0
+
+1.2.4
+-----
+
+- Update to underscore 1.2.4
+
+1.2.3
+-----
+
+- Update to underscore 1.2.3
+
+1.2.2
+-----
+
+- Update to underscore 1.2.2
+
+1.2.1
+-----
+
+- Update to underscore 1.2.1
+
+1.2.0
+-----
+
+- Initial release
